@@ -4,8 +4,11 @@ body, html {
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
-  overflow: hidden;
+  overflow: auto; /* Разрешаем прокрутку */
+  background: none;
+  border: 0;
 }
+
 
 /* Видео-фон */
 .video-background {
